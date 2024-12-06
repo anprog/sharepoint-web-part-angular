@@ -33,17 +33,27 @@ posizionarsi nel progetto angular ed eseguire il comando di compilazione :
 
 ng build --configuration production
 
+copiare il contenuto della cartella /dist di angular nella webpart di angular creata precedentemente.
 
+spfx-project --> src --> webparts --> myWebPart --> angularApp
 
+adeguare i percorsi dei file angular nella webpart predefinita helloWorld nel file HelloWorldWebPart.ts
 
-Far partire il server locale :
+adeguare nel file serve.json l'initial page per angular
 
-nel mio caso sto utilizzando quello di python :
+"initialPage": "http://localhost:8000/index.html"
 
-python -m http.server 8000
+Per avviare il progetto :
 
-File progetto serve.json:
+avviare sharepoint: 
 
-Nel file serve.json viene impostato il percorso per caricare il file html di esempio : test.html
+spostarsi nel progetto spfx : spfx-progect
+eseguire comando : gulp serve
+
+avviare angular:
+
+spostarsi nella webpart di angular : spfx-progect\src\webparts\myWebPart\angularApp
+
+eseguire comando (nel mio caso sto utilizzando il server in python) : python -m http.server 8000
 
 

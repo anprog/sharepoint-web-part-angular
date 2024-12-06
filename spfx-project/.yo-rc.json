@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.20.2",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.24.0"
+    },
+    "version": "1.20.0",
+    "libraryName": "angular-spfx-webpart",
+    "libraryId": "50a37b16-f85b-4728-ae6d-58d75b1afdd0",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "angular-spfx-webpart",
+    "solutionShortDescription": "angular-spfx-webpart description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

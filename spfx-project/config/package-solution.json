@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "angular-spfx-webpart-client-side-solution",
+    "id": "50a37b16-f85b-4728-ae6d-58d75b1afdd0",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "angular-spfx-webpart description"
+      },
+      "longDescription": {
+        "default": "angular-spfx-webpart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "angular-spfx-webpart Feature",
+        "description": "The feature that activates elements of the angular-spfx-webpart solution.",
+        "id": "118922e6-d71b-4069-8cbb-bdcdd571f084",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/angular-spfx-webpart.sppkg"
+  }
+}
